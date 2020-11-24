@@ -1,5 +1,5 @@
 # Markdown - cheat sheet
-![Markdown Logo](https://markdown-here.com/img/icon256.png)
+![Markdown Logo](https://grafxflow.co.uk/storage/app/uploads/public/5ad/e5b/d9b/thumb_891_266_0_0_0_auto.png)
 > « Markdown est un langage de balisage léger créé en 2004 par John Gruber avec l'aide d'Aaron Swartz. Son but est d'offrir une syntaxe facile à lire et à écrire. »
  -- [Article Wikipedia](https://fr.wikipedia.org/wiki/Markdown "Wikipedia/Markdown")
 
