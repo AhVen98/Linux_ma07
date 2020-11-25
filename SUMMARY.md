@@ -5,4 +5,5 @@
 * [MarkDown, résumé](markdowncheatsheet.md)
 * [RDP&SSH, résumé](rdp-and-ssh.md)
 * [Swap, résumé](swap-resume.md)
+* [Linus Torvalds](linus-torvalds.md)
 
