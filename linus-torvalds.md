@@ -1,2 +1,0 @@
-# Linus Torvalds
-
