@@ -1,4 +1,4 @@
-#Linux, module Ma-07
+# Linux, module Ma-07
 ## Trouver les informations
 
 - [i386 et amd64](Theory/i386_amd64.md) 
@@ -14,3 +14,6 @@
     * 
 - [Swap](Theory/Swap.md)
     * Explication sur ce que c'est
+
+## Versioning des machines virtuelles
+Les différentes versions des machines virtuelles seront conservées à l'aide des **snapshots**. Celles-ci sont faisables directement sur VMWare WorkStation.
