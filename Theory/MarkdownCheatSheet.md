@@ -7,7 +7,7 @@ Les extensions associées aux documents balisés avec du Markdown sont :
 - .md
 - .markdown
 
-Seul une partie des balises est présente dans ce document. Pour voir la documentation officielle sur le Markdown, [c'est par ici !](https://daringfireball.net/projects/markdown/)
+Seul une partie des balises est présente dans ce document. Pour voir la documentation officielle sur le Markdown, [c'est par ici !](https://daringfireball.net/projects/markdown/). Le site [Markdown Guide](https://www.markdownguide.org/) propose également de nombreux conseils et explications pour réussir les documents dans ce langage.
 ### Titres
 Le niveau du titre correspond au nombre de `#` en début de ligne (de `<h1>` à `<h6>`).
 ```
