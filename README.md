@@ -11,10 +11,14 @@
     * Explication sur ce que c'est
     * Résumé des syntaxes les plus courantes pour faire du MarkDown dans un document
 - [Linus Torvalds](Theory/LinusTorvalds.md)
-    * 
+    * Influence de Andrew S. Tanenbaum
+    * Lien avec Linux et Git
 - [Swap](Theory/Swap.md)
     * Explication sur ce que c'est
     * Tests pour vérifier la présence du swap
+- [Cmder](Theory/Cmder.md)
+    * Liens de la documentation officielle
+    * Quelques raccourcis utiles
 
 ## Versioning des machines virtuelles
 Les différentes versions des machines virtuelles seront conservées à l'aide des **snapshots**. Celles-ci sont faisables directement sur VMWare WorkStation.
