@@ -22,3 +22,7 @@
 
 ## Versioning des machines virtuelles
 Les différentes versions des machines virtuelles seront conservées à l'aide des **snapshots**. Celles-ci sont faisables directement sur VMWare WorkStation.
+
+## Emplacement des machines virtuelles
+Les machines virtuelles vont être stockées sur le disque C, dans un dossier spécifique. Ce dossier a un nom qui diffère d'une personne à l'autre.   
+Dans le cas des machines privées, les machines virtuelles seront également stockées sur le disque C. 
