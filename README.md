@@ -19,7 +19,7 @@
 - [Cmder](Theory/Cmder.md)
     * Liens de la documentation officielle
     * Quelques raccourcis utiles
-- [Types de virtualisation] (Theory/virtualisation.md)
+- [Types de virtualisation](Theory/virtualisation.md)
     * Quelles sont les différences
 
 ## Versioning des machines virtuelles
