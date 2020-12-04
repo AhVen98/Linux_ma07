@@ -19,6 +19,8 @@
 - [Cmder](Theory/Cmder.md)
     * Liens de la documentation officielle
     * Quelques raccourcis utiles
+- [Types de virtualisation] (Theory/virtualisation.md)
+    * Quelles sont les différences
 
 ## Versioning des machines virtuelles
 Les différentes versions des machines virtuelles seront conservées à l'aide des **snapshots**. Celles-ci sont faisables directement sur VMWare WorkStation.
