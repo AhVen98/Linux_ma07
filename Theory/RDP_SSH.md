@@ -1,6 +1,6 @@
 # RDP & SSH
 ## Introduction
-Le RDP ou Remote Desktop Protocol, est un protocole de Windows permettant l’accès à des machines virtuelles et des serveurs physiques Windows. Son GUI (Graphical User Interface) facilite grandement l’utilisation aux utilisateurs peu expérimentés avec Bash. Un VPN (Virtual Private Network)  est recommandé, voire même un MFA (Multi-Factor Authentication).
+Le RDP ou Remote Desktop Protocol, est un protocole de Windows permettant l’accès à des machines virtuelles et des serveurs physiques Windows part le biais du **port 3389**. Son GUI (Graphical User Interface) facilite grandement l’utilisation aux utilisateurs peu expérimentés avec Bash. Un VPN (Virtual Private Network)  est recommandé, voire même un MFA (Multi-Factor Authentication).
 
 Le SSH ou Secure Shell, quant à lui, est un **protocole** optimisé pour l’accès à des serveurs Linux par le **port 22**, mais il est utilisable avec tous les systèmes d’exploitation de serveurs. L’utilisateur doit savoir utiliser Bash pour pouvoir l’utiliser. Le SSH fonctionne avec un système de clés privées et publiques, ce qui le rend nativement plus sûr qu’avec l’utilisation de credentials, comme pour le RDP.
 
@@ -40,4 +40,11 @@ On voit ici, de manière très simplifiée, comment le système à clé publique
 (Notre schéma logique sera fait lorsque nos connexion SSH seront établies entre le CPNV et nos domiciles.)
 
 ## Sources
+Schéma d'un tunnel SSH:   
+https://persistentssh.com/docs.php
 
+Schéma de la mise en place du tunnel SSH:   
+https://www.venafi.com/education-center/ssh/what-is-ssh
+
+Représentation d'une connexion SSH entre deux réseaux:   
+http://supnumwang.blogspot.com/2011/11/short-guide-to-ssh-port-forwarding.html
