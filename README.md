@@ -21,6 +21,11 @@
     * Quelques raccourcis utiles
 - [Types de virtualisation](Theory/virtualisation.md)
     * Quelles sont les différences
+    
+- [Partitions d'un disque](Theory/partition.md)
+    * Types de partitions
+    * nombre de partitions nécessaires
+- 
 
 ## Versioning des machines virtuelles
 Les différentes versions des machines virtuelles seront conservées à l'aide des **snapshots**. Celles-ci sont faisables directement sur VMWare WorkStation.
