@@ -56,7 +56,7 @@ nft 'add chain inet firewall forward { type filter hook forward priority 0; poli
 
 Après la création des chaines, il faut y ajouter la règle qui nous interesse, comme suit :
 ```
-nft add rule inet firewall input tcp dport ssh accept comment "Accept SSH"
+nft add rule inet firewall input tcp dport ssh accept comment "Accept SSH connection (port22)"
 nft add rule inet firewall input iif lo accept comment "Accept any localhost traffic"
 nft add rule inet firewall input ct state invalid drop comment "Drop invalid connections"
 nft add rule inet firewall input ct state established,related accept comment "Accept traffic originated from us"
@@ -65,7 +65,7 @@ nft add rule inet firewall input ct state established,related accept comment "Ac
 Le mot clé `comment` permet d'ajouter un commentaire, renseigné avec des `" "`.
 Le résultat, lors de l’affichage de nos tables via l commande `nft list table inet firewall`, correspondra alors à ceci :
 
-```
+```bash
 table inet firewall {
 
     chain input {
