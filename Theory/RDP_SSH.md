@@ -27,14 +27,14 @@ ssh [nom d’utilisateur distant]@[ip de l’ordinateur distant]
 ___
 ## Schéma de la mise en place d'un tunnel SSH
 ###Schéma d'un tunnel SSH:
-![Schéma d'un tunnel SSH](images\ssh-diagram.png)
+![Schéma d'un tunnel SSH](Theory/images/ssh-diagram.png)
 
 ###Schéma de la mise en place du tunnel SSH:
-![Schéma de la mise en place du tunnel SSH](images\How_does_the_SSH_protocol_work_.png)
+![Schéma de la mise en place du tunnel SSH](Theory/images/How_does_the_SSH_protocol_work_.png)
 
 On voit ici, de manière très simplifiée, comment le système à clé publique et clé privée fonctionne pour établir le tunnel SSH.
 
 ###Représentation d'une connexion SSH entre deux réseaux:
-![Représentation d'une connexion SSH entre deux réseaux](images\ssh.jpg)
+![Représentation d'une connexion SSH entre deux réseaux](Theory/images/ssh.jpg)
 
 (Notre schéma logique sera fait lorsque nos connexion SSH seront établies entre le CPNV et nos domiciles.)
