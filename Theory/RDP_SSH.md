@@ -27,7 +27,7 @@ ssh [nom d’utilisateur distant]@[ip de l’ordinateur distant]
 ___
 ## Schéma de la mise en place d'un tunnel SSH
 ###Schéma d'un tunnel SSH:
-![Schéma d'un tunnel SSH](Theory/images/ssh-diagram.png)
+![Schéma d'un tunnel SSH](images/ssh-diagram.png)
 
 ###Schéma de la mise en place du tunnel SSH:
 ![Schéma de la mise en place du tunnel SSH](images/How_does_the_SSH_protocol_work_.png)
