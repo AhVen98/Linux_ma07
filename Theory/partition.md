@@ -29,6 +29,10 @@ Bien que GPT semble être mieux sur tous les points, il reste des situations dan
 3. Microprogrammes boggés : Certains programmes, configurés pour démarrer en BIOS/Legacy/... peuvent avoir des soucis s'ils sont démarrés à partir de disques partitionnées en GPT.   
 Le problème reste contournable, en ajoutant un indicateur (boot/active) sur une partition de protection MBR [effectué via fdisk grâce à l'option -t dos]. Cela force le microprogramme à lire ce qui se trouve sur la partition à l'aide du format MBR.
 
+# Créer une structure partitionnée
+## Déterminer le nombre de partitions adéquates
+Comme dans beaucoup de cas, le nombre de partitions nécessaires dépend de l'environnement et du cadre d'utilisation. Choisir le bon système de fichiers ainsi que les bonnes répartitions permet de maximiser les performances. 
+Il faut dans tous les cas une partition de stockage "principale". Il s'agit de la partition racine. De plus, il est conseillé de créer une partition à part pour le boot. La présence d'un swap à côté de cela est un plus non négligeable. 
 
 ## Sources
 https://wiki.gentoo.org/wiki/Handbook:AMD64/Installation/Disks/fr
