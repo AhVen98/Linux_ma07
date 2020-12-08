@@ -92,8 +92,8 @@ _NOTE_ : La famille `inet` indique que la table sera traversée par les pacquets
 ### Autre commandes utiles
 
 - Afficher les tables (provoquera une erreur si aucune table n’existe) :`nft list tables`
-- Suppression d’une table (et de son contenu depuis la version Linux 3.18) : `nft add table ip filter`
-- Vider une table de ses règles : `nft flush table ip filter`
+- Suppression d’une table (et de son contenu depuis la version Linux 3.18) : `nft add table familleDeLaTable nomDeTable`
+- Vider une table de ses règles : `nft flush table familleDeLaTable nomDeTable`
 
 ### Scripting
 A faire !
