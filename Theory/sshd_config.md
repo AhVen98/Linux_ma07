@@ -36,7 +36,7 @@ Ensuite il faut redémarer le service SSH
 $ sudo systemctl restart sshd
 ```
 
-Un utilisateur qui n'a plus accès SSH devrait voir ce message quand il essaie de se connecter:
+Un utilisateur qui n'a plus accès SSH devrait voir ce message s'afficher sur sa console, quand il essaie de se connecter:
 
 ```bash
 Permission denied, please try again.
