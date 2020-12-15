@@ -42,7 +42,8 @@ Afficher la liste des utilisateurs :
 $ cat /etc/passwd
 ```
 
-[Debian User Management Documentation ](https://wiki.debian.org/UserAccounts)
+[Debian User Management Documentation](https://wiki.debian.org/UserAccounts)
+[Linux List All Users In The System](https://www.cyberciti.biz/faq/linux-list-users-command/)
 ___
 
 ## Comment se connecter à un hôte distant
