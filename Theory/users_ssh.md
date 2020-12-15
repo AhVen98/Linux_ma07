@@ -12,14 +12,24 @@ Ajouter un utilisateur :
 $ sudo adduser [username]
 ```
 
+Ajouter un utilisateur à un groupe :
+```
+$ usermod -aG [groupname] [username]
+```
+
 Donner les droits sudo :
 ```
 $ usermod -aG sudo [username]
 ```
 
-Donner les droits sudo :
+Retirer un utilisateur d'un groupe :
 ```
 $ gpasswd -d [group] [username]
+```
+
+Retirer les droits sudo :
+```
+$ gpasswd -d sudo [username]
 ```
 
 Effacer utilisateur :
