@@ -128,8 +128,6 @@ BACKSPACE="guess"
 - Voir l'utilisateur actuellement utilisé : `whoami`
 ```bash
 debianadmin@debian-paola:~$ whoami
-
-# OUTPUT
 debianadmin
 ```
 - Voir les utilisateurs actuellement connectés : `users`
@@ -145,9 +143,7 @@ debianadmin sudo
 	- gid = ID du groupe principal de l'utilisateur
 	- groups = ID des groupes secondaires de l'utilisateur
 ```bash
-id debianadmin
-
-# OUTPUT
+debianadmin@debian-paola:~$ id debianadmin
 uid=1001(debianadmin) gid=1001(debianadmin) groups=1001(debianadmin),27(sudo)
 ```
 
@@ -155,8 +151,6 @@ uid=1001(debianadmin) gid=1001(debianadmin) groups=1001(debianadmin),27(sudo)
 	- Note : Si le nom du groupe n'est pas précisé, cette commande va lister tout les groupes présents, avec leurs utilisateurs respectifs.
 ```bash
 debianadmin@debian-paola:~$ getent group sudo
-
-# OUTPUT
 sudo:x:27:debianadmin
 ```
 - Voir la liste des utilisateurs : `cat /etc/passwd`
