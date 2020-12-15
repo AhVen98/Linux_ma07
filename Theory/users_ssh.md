@@ -36,6 +36,12 @@ Effacer utilisateur :
 ```
 $ sudo deluser [username]
 ```
+
+Afficher la liste des utilisateurs :
+```
+$ cat /etc/passwd
+```
+
 [Debian User Management Documentation ](https://wiki.debian.org/UserAccounts)
 ___
 
