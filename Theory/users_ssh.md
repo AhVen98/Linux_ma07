@@ -42,6 +42,15 @@ Afficher la liste des utilisateurs :
 $ cat /etc/passwd
 ```
 
+1. Username
+2. The encrypted password (represented by x, located in the /etc/shadow file)
+3. User ID number (known as UID)
+4. User group ID (known as GID)
+5. User full name
+6. User home directory
+7. The login shell (by default set to bin/bash)
+![Liste des utilisateurs](https://phoenixnap.com/kb/wp-content/uploads/2019/04/explaining-user-information.png)
+
 [Debian User Management Documentation](https://wiki.debian.org/UserAccounts)   
 [Linux List All Users In The System](https://www.cyberciti.biz/faq/linux-list-users-command/)
 ___
