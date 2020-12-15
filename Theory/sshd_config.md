@@ -3,7 +3,7 @@
 Ouvrir dans un éditeur de texte le fichier sshd_config
 
 ```bash
-sudo nano /etc/ssh/sshd_config
+$ sudo nano /etc/ssh/sshd_config
 ```
 
 Pour donner l'accès SSH à utilisateur, il suffit de modifier/ajouter cette ligne:
