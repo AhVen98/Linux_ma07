@@ -53,7 +53,7 @@ $ cat /etc/passwd
 ![Liste des utilisateurs](https://phoenixnap.com/kb/wp-content/uploads/2019/04/explaining-user-information.png)
 
 [Debian User Management Documentation](https://wiki.debian.org/UserAccounts)   
-[Linux List All Users In The System](https://www.cyberciti.biz/faq/linux-list-users-command/)
+[Linux List All Users In The System](https://www.cyberciti.biz/faq/linux-list-users-command/)   
 [How to List Users in Linux, List all Users Command](https://phoenixnap.com/kb/how-to-list-users-linux)
 ___
 
