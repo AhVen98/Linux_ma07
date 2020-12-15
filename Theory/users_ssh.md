@@ -42,17 +42,19 @@ Afficher la liste des utilisateurs :
 $ cat /etc/passwd
 ```
 
-1. Username
-2. The encrypted password (represented by x, located in the /etc/shadow file)
-3. User ID number (known as UID)
-4. User group ID (known as GID)
-5. User full name
-6. User home directory
-7. The login shell (by default set to bin/bash)
+1. Nom d'utilisateur
+2. mot de passe encrypté (représenté par un x, localisé en /etc/shadow file)
+3. ID de l'utilisateur (UID)
+4. ID du groupe (GID)
+5. Nom complet de l'utilisateur
+6. Directory home de l'utilisateur
+7. Le shell login (by default set to bin/bash)
+
 ![Liste des utilisateurs](https://phoenixnap.com/kb/wp-content/uploads/2019/04/explaining-user-information.png)
 
 [Debian User Management Documentation](https://wiki.debian.org/UserAccounts)   
-[Linux List All Users In The System](https://www.cyberciti.biz/faq/linux-list-users-command/)
+[Linux List All Users In The System](https://www.cyberciti.biz/faq/linux-list-users-command/)   
+[How to List Users in Linux, List all Users Command](https://phoenixnap.com/kb/how-to-list-users-linux)
 ___
 
 ## Comment se connecter à un hôte distant
