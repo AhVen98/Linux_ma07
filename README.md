@@ -1,6 +1,7 @@
 # Linux, module Ma-07
 ## Trouver les informations
 
+- [Commandes de vérifications du système](Theory/verifications.md)
 - [i386 et amd64](Theory/i386_amd64.md) 
     * Explication sur les différences entre i386 et amd64 
     * Explication sur Debian + Justification de la source
@@ -27,8 +28,8 @@
 - [nftables](Theory/firewall.md)
     * Explication sur ce que c'est
     * Création de notre firewall
--
-
+- [Configuration SSHD](Theory/sshd_config.md)
+- [Accès utilisateur en ssh](Theory/users_ssh.md)
 
 ## Versioning des machines virtuelles
 Les différentes versions des machines virtuelles seront conservées à l'aide des **snapshots**. Celles-ci sont faisables directement sur VMWare WorkStation.
