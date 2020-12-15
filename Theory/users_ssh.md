@@ -17,6 +17,11 @@ Donner les droits sudo :
 $ usermod -aG sudo [username]
 ```
 
+Donner les droits sudo :
+```
+$ gpasswd -d [group] [username]
+```
+
 Effacer utilisateur :
 ```
 $ sudo deluser [username]
