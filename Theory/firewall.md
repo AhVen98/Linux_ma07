@@ -81,7 +81,7 @@ table inet firewall {
 }
 ```
 
-**Attention** : La configuration ne sera pas concervée, si celle-ci n'est pas enregistrée dans le fichier de configuration. `nft list table <nomTable> > nftables.conf` <-- VERIFICATION DU NOM DU FICHIER !!!
+**Attention** : La configuration ne sera pas concervée, si celle-ci n'est pas enregistrée dans le fichier de configuration. `nft list table <nomTable> > /etc/nftables.conf`
 
 _NOTE_ : La famille `inet` indique que la table sera traversée par les pacquets IPv4 et IPv6. Les règles propre à un type d’adresse n’impacteront pas l’autre type et vice-versa.
 
@@ -91,17 +91,22 @@ Ajouter une règle avec `add` l'ajoutera à la suite des autres. Si on veut en a
 
 Une table est supprimable (Depuis Linux 3.18, le contenu est supprimé en même temps) avec la commande `nft delete table <famille> <nomTable>`. Une table peut également être vidée de ses chaines et de ses règles avec `nft flush table <famille> <nomTable>`.
 
-Une chaine est supprimable avec `ntf delete chain <famille> <nomTable> <nomChaine>`. Il faudra cependant la vider de son contenu au préalable avec `ntf flush chain <nomTable> <nomChaine>`. <-- VERIFICATION ICI !!!
+Une chaine est supprimable avec `ntf delete chain <famille> <nomTable> <nomChaine>`. Il faudra cependant la vider de son contenu au préalable avec `ntf flush chain <nomTable> <nomChaine>`.
 
 Il est également possible de supprimer l'intégralité des règles, chaines et tables avec `nft flush ruleset`. Si on y ajoute à la suite une famille (ex: `inet`), seules les règles de cette famille seront effacées.
 
 Une règle seule est supprimable, mais pour cela, il faut récupérer le numéro (handle) de la règle. Pour cela, il faut lister les règles avec le paramètres `-a` : `nft list table <nomTable> -a`. Il sera alors possible de supprimer la règle choisie grâce à `nft delete rule <nomTable> <nomChaine> handle <numeroRegle>`.
 
-### Autre commandes utiles
+### Modification
 
-- Afficher les tables (provoquera une erreur si aucune table n’existe) :`nft list tables`
-- Suppression d’une table (et de son contenu depuis la version Linux 3.18) : `nft add table <famille> <nomTable>`
-- Vider une table de ses règles : `nft flush table <famille> <nomTable>`
+Une règle peut être modifiée grâce à la commande `replace`. Il faut par contre indiquer le "handle" de cette règle.
+La commande complète se constitue comme suit : `nft replace rule <nomTable> <nomChaine> handle <numeroRegle> <nouvelleRegle>`
+
+### Autres informations utiles
+Pour configurer nftables, il y a trois manières possibles :
+- Avec la commande `nft` (comme montré dans ce document)
+- Avec le shell interactif, lancé avec `nft -i` (`nft` ne sera alors plus nécessaire)
+- Avec le fichier de configuration `/etc/nftables.conf` (ATTENTION : cette méthode est déconseillée. Les erreurs y sont très faciles.)
 
 ### Scripting
 
@@ -109,6 +114,6 @@ Il est également possible de créer des scripts pour diverses configurations. L
 
 # Sources
 
-https://fr.wikipedia.org/wiki/Nftables
-https://wiki.nftables.org/wiki-nftables/index.php/Main_Page
-https://netfilter.org/projects/nftable
+* https://fr.wikipedia.org/wiki/Nftables
+* https://wiki.nftables.org/wiki-nftables/index.php/Main_Page
+* https://netfilter.org/projects/nftable
